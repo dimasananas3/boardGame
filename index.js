@@ -12,7 +12,7 @@ app.use(express.json());
 
 // MongoDB Connection
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/unmatched-stats';
-const JWT_SECRET = process.env.JWT_SECRET || 'mongodb+srv://dkonononko:YdyJvOR2e5k0FqlB@dimakononenko.vhzb9tm.mongodb.net/?retryWrites=true&w=majority&appName=DimaKononenko';
+const JWT_SECRET = process.env.JWT_SECRET || 'asdqfsdgfsdggdfgdfg';
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
